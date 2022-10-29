@@ -32,7 +32,7 @@ fn _run(s: String) -> Result<String, String> {
     if reg.is_match(&pull_request.title) {
         body = String::from("Welcome");
 
-        assignees.insert("jetjinser");
+        assignees.insert("prnake");
     } else {
         body = format!(
             r#"This PR's title doesn't match our requirement.
